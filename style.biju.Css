@@ -1,0 +1,79 @@
+body {
+    font-family: FonteF1, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./src/imagem/praia);
+      
+}
+
+:root{
+    --cor-primaria: #1f8ec5;
+    --cor-secundaria: #FFF;
+}
+
+.menu{
+    box-sizing: border-box;
+    background-image: linear-gradient(#1f8ec5, #38aae3 70%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 0.7rem 0.7rem;
+    box-shadow: 0 0.5rem 1rem #758fa5;
+    
+}
+
+.menu h2{
+    font-size: 1.5rem;
+    margin: 0.4rem 0;
+    color: var(--cor-secundaria);
+    font-style: italic;
+    font-family:Playfair Display, sans-serif;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li{
+    margin: 0.25rem;
+    padding: 0.7rem 0.7rem;
+    color: var(--cor-secundaria);
+    font-family:Nunito, sans-serif;
+}
+
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.7rem 0.7rem;
+}
+
+.produtos{
+    height: 50vh;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produtos article{
+    width: 20vw;
+    height: 40vh;
+    margin: 0 1rem;
+}
+
+.produtos img{
+    width: 100%;
+    height: 90%;
+}
+
