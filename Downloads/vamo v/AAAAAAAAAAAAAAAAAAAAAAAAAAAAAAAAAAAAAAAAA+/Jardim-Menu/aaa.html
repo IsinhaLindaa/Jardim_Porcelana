@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            background-color: #e2f1f6;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between; /* Espaça os itens */
+            align-items: center; /* Alinha verticalmente os itens */
+            width: 100%;
+            padding: 0px 0px;
+            margin: 0;
+        }
+
+        .navbar img {
+            width: 30px;
+            height: auto;
+        }
+
+        .navbar ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .left, .right {
+            flex: 0 1 auto; /* Permite que os logos fiquem fixos */
+        }
+
+        .center {
+            flex: 1; /* O campo de busca ocupa o espaço restante */
+            text-align: center; /* Centraliza o conteúdo do campo de busca */
+        }
+
+        .navbar input[type="text"] {
+            width: 30%; /* Diminuindo a largura do campo de busca para 50% */
+            padding: 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <!-- Logo à esquerda -->
+        <li class="left"><img class="dist" alt="logo"></li>
+
+        <!-- Campo de busca no centro -->
+        <li class="center">
+            <input type="text" placeholder="Buscar...">
+        </li>
+
+        <!-- Logo à direita -->
+        <li class="right"><img src="carrinho.png" alt="logo"></li>
+    </ul>
+</body>
+</html>

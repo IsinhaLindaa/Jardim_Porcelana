@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos */
+    align-items: center;
+    padding: 10px 20px; /* Reduzido para diminuir a altura da barra */
+    background-color: #e2f1f6;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    position: absolute; /* Posiciona a logo à esquerda */
+    left: 20px;
+}
+
+.search-container {
+    flex-grow: 1;
+    margin: 0 20px;
+    max-width: 300px; /* Define uma largura máxima para a barra de pesquisa */
+}
+
+.search-container input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+}
+
+.cart {
+    position: absolute; /* Posiciona o carrinho à direita */
+    right: 20px;
+}
+
+.cart img {
+    height: 30px;
+    cursor: pointer;
+}
+
+
+nav {
+    background-color: #2974a7;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #e1e1e1bc;
+}

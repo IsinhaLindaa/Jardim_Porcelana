@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f6f1e9;
+    font-family:"Julius Sans One", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #e2f1f6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.search-container img {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 20px;
+}
+
+.search-container {
+    margin: 0;
+    width: 100%;
+    height: 10rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.search-container input {
+    width: 50%;
+    height: 5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+}
+
+
+nav {
+    background-color: #1c6083;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+
+.menu a:hover {
+    background-color: #e1e1e1bc;
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.department-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.department-bar {
+    background-color: #ffcc00; 
+    height: 5px;
+    width: 100px;
+    margin: 0 auto; 
+}
+.department-button {
+    background-color: #fff; 
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 200px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.department-button:hover {
+    background-color: #e1e1e1bc; 
+}
+
+.department-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Para um visual mais suave */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
