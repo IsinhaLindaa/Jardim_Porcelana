@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    background-color: #f6f1e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    width: 30%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h1{
+    font-size: 185%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 240, 215);
+    margin: 5%;
+}
+
+form{
+    width: 40vh;
+    height: 65vh;
+    background-color: rgba(41, 116, 167, 0.7);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+
+form button{
+    height: 2rem;
+    width: 50%;
+    margin: 2%;
+    background-color: rgb(255, 240, 215);
+    border-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: rgba(41, 116, 167);
+    cursor: pointer;
+
+}
+
+.caixa form input{
+    border-radius: 2rem;
+    width: 90%;
+    height: 2.5rem;
+}
+
+.caixa form input::placeholder{
+   font-size: 1rem;
+   text-align: center;
+}
