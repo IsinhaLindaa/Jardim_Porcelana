@@ -1,64 +1,21 @@
-body {
-    font-family: FonteF1, sans-serif;
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
-    background-color: #f6f1e9;
-      
 }
 
-:root{
+body {
+    margin: 0;
+    background-color: #f6f1e9;
+    font-family:"Julius Sans One", sans-serif;
+}
 
+
+:root{
+    --cor-primaria: #1f8ec5;
+    --cor-secundaria: #FFF;
     --cor-terciaria: #1c6083;
     --cor-quartenaria: #f6f1e9;
 }
 
-.menu{  
-    box-sizing: border-box;
-    background-color: #29566C;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0 0 0.7rem 0.7rem;
-    
-    
-
-}
-
-.menu h2{
-    font-size: 1.5rem;
-    margin: 0.4rem 0;
-    color: var(--cor-quartenaria);
-    font-family:"Julius Sans One", sans-serif;
-}
-
-.titulo{
-    font-size: 1.5rem;
-    margin: 0.4rem 0;
-    color: var(--cor-terciaria);
-    font-family:"Julius Sans One", sans-serif;
-    text-align: center;
-}
-
-.menu ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.menu li{
-    margin: 0.30rem;
-    padding: 0.7rem 0.7rem;
-    color: var(--cor-quartenaria);
-    font-family: "Abel", sans-serif;
-    cursor: pointer;
-}
 
 .produtos figcaption{
     color: var(--cor-terciaria);
@@ -108,4 +65,116 @@ body {
         width: 40%;
         height: 50%;
     }
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #e2f1f6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    color: white;
+    position: relative;
+    margin-bottom: 0;
+    
+}
+
+.search-container img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    left: 20px;
+}
+
+.search-container {
+    margin: 0;
+    width: 95%;
+    height: 8rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.search-container input {
+    width: 50%;
+    height: 3.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+}
+
+
+nav {
+    background-color: #1c6083;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+
+.menu a:hover {
+    background-color: #e1e1e1bc;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0f2e3d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
 }
