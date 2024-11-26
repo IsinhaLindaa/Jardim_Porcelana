@@ -50,11 +50,11 @@ body {
 .produtos article{
     width: 12%;
     height: 30%;
-    margin: 1.5rem;
+    margin: 2rem;
 }
 
 .produtos img{
-    width: 100%;
+    width: 130%;
     height: 70%;
     border-radius:10px;
     border-style: solid;

@@ -1,17 +1,101 @@
-body{
+* {
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
-    height: 100vh;
-    background-color: #f6f1e9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f6f1e9;
+    font-family:"Julius Sans One", sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #e2f1f6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    color: white;
+    position: relative;
+    margin-bottom: 0;
+    
+}
+
+.search-container img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    left: 20px;
+}
+
+.search-container {
+    margin: 0;
+    width: 95%;
+    height: 8rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.search-container input {
+    width: 50%;
+    height: 3.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+}
+
+
+nav {
+    background-color: #1c6083;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+
+.menu a:hover {
+    background-color: #e1e1e1bc;
+    
 }
 
 .caixa{
     width: 30%;
     height: 55vh;
+    margin: 5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +103,7 @@ body{
 }
 
 .caixa h1{
-    font-size: 185%;
+    font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 240, 215);
     margin: 5%;
@@ -28,13 +112,13 @@ body{
 form{
     width: 40vh;
     height: 65vh;
-    background-color: rgba(41, 116, 167, 0.7);
     padding: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 5%;
+    background-color: #1c6083;
 }
 
 
@@ -42,13 +126,13 @@ form button{
     height: 2rem;
     width: 50%;
     margin: 2%;
-    background-color: rgb(255, 240, 215);
+    background-color: rgb(255, 248, 235);
     border-radius: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgba(41, 116, 167);
     cursor: pointer;
-
+    
 }
 
 .caixa form input{
@@ -58,6 +142,25 @@ form button{
 }
 
 .caixa form input::placeholder{
-   font-size: 1rem;
+   font-size: 1.2rem;
    text-align: center;
+}
+
+footer {
+    background-color: #0f2e3d;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
 }
