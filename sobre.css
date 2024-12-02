@@ -1,42 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    box-sizing: border-box;
-    background-image: url(img/scr/praia-tropical-4.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: #f6f1e9;
+    font-family:"Julius Sans One", sans-serif;
+}
+
+header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0;
+    background-color: #e2f1f6;
+}
+
+.navbar {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    color: white;
+    position: relative;
+    margin-bottom: 0;
+    
+}
+
+.search-container img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    left: 20px;
+}
+
+.search-container {
+    margin: 0;
+    width: 100%;
+    height: 10rem; 
+    display: flex;
+    justify-content: center; 
     align-items: center;
 }
 
-.caixa {
+.search-container input {
+    width: 50%;
+    height: 5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+}
+
+
+nav {
+    background-color: #1c6083;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: rgb(255, 255, 255, 0.9);
-    width: 30vw;
-    height: 60vh;
-    margin: 1rem 1rem;
-    font-family: Merriweather, sans-serif;
-    align-items: center;
-    border-radius: 3%;
 }
-.caixa img{
-    width: 10%;
-    height: 10%;
+
+.menu li {
+    flex: 1;
 }
-.caixa p{
-    font-size: 130%;
-}
-.caixa h2{
-    font-size: 185%;
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
     
 }
-.caixa iframe{
-    width: 60%;
-    height: 70%;
-    border-radius: 0.5rem;
+
+.menu a:hover {
+    background-color: #e1e1e1bc;
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+ul {
+    color: #34495e;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
 }
