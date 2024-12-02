@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(img/scr/praia-tropical-4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 30vw;
+    height: 60vh;
+    margin: 1rem 1rem;
+    font-family: Merriweather, sans-serif;
+    align-items: center;
+    border-radius: 3%;
+}
+.caixa img{
+    width: 10%;
+    height: 10%;
+}
+.caixa p{
+    font-size: 130%;
+}
+.caixa h2{
+    font-size: 185%;
+    
+}
+.caixa iframe{
+    width: 60%;
+    height: 70%;
+    border-radius: 0.5rem;
+}
