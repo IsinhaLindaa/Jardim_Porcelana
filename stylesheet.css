@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family:"Julius Sans One", sans-serif;
 }
 
 .caixa {
@@ -143,8 +144,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
    
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/localizacao
+

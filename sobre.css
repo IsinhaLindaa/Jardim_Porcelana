@@ -3,9 +3,14 @@
 }
 
 body {
+    height: 100vh;
     margin: 0;
     background-color: #f6f1e9;
     font-family:"Julius Sans One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header{
@@ -13,6 +18,7 @@ header{
     flex-direction: column;
     padding: 0;
     background-color: #e2f1f6;
+    width: 100%;
 }
 
 .navbar {
@@ -26,6 +32,7 @@ header{
     
 }
 
+
 .search-container img {
     width: 6rem;
     height: 6rem;
@@ -35,8 +42,8 @@ header{
 
 .search-container {
     margin: 0;
-    width: 100%;
-    height: 10rem; 
+    width: 95%;
+    height: 8rem; 
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -44,7 +51,7 @@ header{
 
 .search-container input {
     width: 50%;
-    height: 5rem;
+    height: 3.5rem;
     padding: 0.5rem;
     border: none;
     border-radius: 20px;
@@ -87,43 +94,25 @@ nav {
     
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 400px;
-}
 
-.container {
-    margin-top: 20px;
-}
 
-.container1 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 100%;
-}
 
-h1 {
-    color: #2c3e50;
-    text-align: center;
-}
 
-p {
-    color: #34495e;
-    line-height: 1.6;
-}
 
-ul {
-    color: #34495e;
-}
+
+
+
+
+
+
 
 footer {
-    background-color: #000;
+    background-color: #0f2e3d;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
+
 }
 
 footer a {

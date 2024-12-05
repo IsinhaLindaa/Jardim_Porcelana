@@ -87,38 +87,20 @@ header{
     
 }
 
+.search-container img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    left: 20px;
+}
 
 .search-container {
     margin: 0;
     width: 95%;
     height: 8rem; 
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
-}
-
-.search-container img {
-    width: 6rem;
-    height: 6rem;
-}
-
-.pesquisa {
-    width: 50rem;
-    height: 6rem;
-    align-items: center;
-    
-}
-
-
-#lupa {
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-#icon{
-    width: 2.5rem;
-    height: 2.5rem;
-    justify-content: e; 
 }
 
 .search-container input {
@@ -196,4 +178,5 @@ footer a:hover {
     text-decoration: underline;
     
 }
+
 
