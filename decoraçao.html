@@ -5,46 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Decoração</title>
+    <link rel="stylesheet" href="./styleDecoraçao.css">
 </head>
 <nav> </nav>
 <body>
-    <h2>Procure por itens</h2>
-    <ul>
-        <li><a href="menu/menu.html">Home</a></li>
-        <li><a href="LoginLoja.html">Login</a></li>
-        <li><a href="sobre.html">Sobre Nós</a></li>
-        <li><a href="localizacao.html">Localização</a></li>
-    </ul> <br><br>
 
-<nav>
-    <ul>
-        <li><a href="&">Decoração</a></li>
-        <li><a href="&">Bijuteria</a></li>
-        <li><a href="&">Porcelanato</a></li>
-    </ul>
-</nav>
+    <header>
+        <div class="search-container">
+            <img src="src/logo-removebg-preview (1).png" alt="Logo" />
+            <input type="text" placeholder="Buscar...">
+        </div>
+    
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <img src="src/decoracao.jpg.jpg" alt="400px" height="500px">
-    <figcaption>DECORAÇÃO</figcaption> <br><br><br>
+    <section class="produtos">
+    
+        <article>
+            <img src="src/almofadas.jpg" alt="almofadas" >
+            <figcaption><a href="almofadas.html">Almofadas</a></figcaption> <br>
+        </article>
+        <article>
+            <img src="src/vasos.jpg" alt="vasos">
+            <figcaption><a href="vasos.html">Vasos</a></figcaption> <br>
+        </article>
+        <article>
+            <img src="src/cortinas.jpg" alt="cortinas">
+            <figcaption><a href="cortinas.html">Cortinas</a></figcaption> <br>
+        </article>
+        <article>
+            <img src="src/tapetes.jpg" alt="tapetes">
+            <figcaption><a href="tapetes.html">Tapetes</a></figcaption> <br>
+        </article>
+        <article>
+            <img src="src/Molduras.jpg" alt="molduras">
+            <figcaption><a href="molduras.html">Molduras</a></figcaption> <br>
+        </article>
+        <article>
+            <img src="src/redes.avif" alt="redes">
+            <figcaption><a href="redes.html">Rede de Descanso</a></figcaption> <br>
+        </article>
+        
+    </section>
 
-
-    <img src="src/almofadas.jpg" alt="150px" height="150px">
-    <figcaption><a href="almofadas.html">Almofadas</a></figcaption> <br>
-
-    <img src="src/vasos.jpg" alt="150px" height="150px">
-    <figcaption><a href="vasos.html">Vasos</a></figcaption> <br>
-
-    <img src="src/cortinas.jpg" alt="150px" height="150px">
-    <figcaption><a href="cortinas.html">Cortinas</a></figcaption> <br>
-
-    <img src="src/tapetes.jpg" alt="150px" height="150px">
-    <figcaption><a href="tapetes.html">Tapetes</a></figcaption> <br>
-
-    <img src="src/Molduras.jpg" alt="150px" height="150px">
-    <figcaption><a href="molduras.html">Molduras</a></figcaption> <br>
-
-    <img src="src/redes.avif" alt="150px" height="150px">
-    <figcaption><a href="redes.html">Rede de Descanso</a></figcaption> <br>
+    <footer>
+        <div class="container">
+            <h2>Jardim de Porcelana</h2>
+            <p>&copy; 2024 Jardim de Porcelana. Todos os direitos reservados.</p>
+            <p>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#localizacao">Localização</a>
+                <a href="#login">Login</a>
+            </p>
+        </div>
+    </footer>
 
 
 </body>
